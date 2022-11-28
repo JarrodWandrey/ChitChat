@@ -1,0 +1,11 @@
+body{
+    background-color: #080808;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: rgb(101, 183, 197);
+    text-shadow: -4px 1px #302d2d;
+}
