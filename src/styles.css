@@ -1,6 +1,3 @@
-body{
-    background-color: #080808;
-}
 
 h1{
     font-size: 70px;
@@ -9,3 +6,40 @@ h1{
     color: rgb(101, 183, 197);
     text-shadow: -4px 1px #302d2d;
 }
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(22, 55, 82);
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .leftpane {
+      width: 20%;
+      height: 100%;
+      float: left;
+      background-color: rgb(34, 79, 116);
+      border-collapse: collapse;
+  }
+
+  .middlepane {
+      width: 70%;
+      height: 100%;
+      float: left;
+      background-color: royalblue;
+      border-collapse: collapse;
+  }
+
+  .rightpane {
+    width: 10%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: rgb(34, 79, 116);
+    border-collapse: collapse;
+  }
