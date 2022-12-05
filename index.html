@@ -1,3 +1,5 @@
+<!--// https://code.tutsplus.com/tutorials/how-to-create-a-simple-web-based-chat-application--net-5931
+    good reference for chat box-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,11 +23,22 @@
             </div>
             <div class="column middle" style="background-color:rgb(112, 50, 0);">
               <h2>ChatBox</h2>
-              <form>
-                <p>
-                  chat box
-                </p>
+              <div id="menu">
+                <p class="Welcome">Welcome, <b></b></p>
+              </div>
+
+              <div id="chatbox"></div>
+
+              <form name="message" action="">
+                <input name="usermsg" type="text" id="usermsg"/>
+                <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
               </form>
+              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              <script type="text/javascript">
+              // jQuery Document
+              $(document).ready(function () {});
+              </script>
+
             </div>
             <div class="column right" style="background-color:rgb(138, 129, 118);">
               <h2>Online users in specific 'channel'</h2>
